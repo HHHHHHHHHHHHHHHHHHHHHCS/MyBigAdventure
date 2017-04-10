@@ -1,0 +1,45 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: MapAtlas.png (1024 x 1024)
+# $TexturePacker:SmartUpdate:cbf75e728fa169d7171847bfc169a980:43bca8e739b34b5bcaa3f7b29c1681ce:06440a24e416105e665a847555801e90$
+#
+
+Brick;248;974;48;48;0.5;0.5
+Cloud_bad;196;201;140;99;0.5071428571428571;0.5
+Cloud_normal;294;20;124;81;0.5;0.5
+Flower;222;852;44;46;0.5;0.5217391304347826
+Grass;2;4;72;24;0.5;0.5
+Lady;200;778;44;48;0.5;0.5
+Lawd;76;4;72;24;0.5;0.5
+Missile_48x72_tobottom;244;31;48;70;0.5;0.5
+Missile_48x72_toleft;150;828;70;48;0.5;0.5
+Missile_48x72_toright;200;900;70;48;0.5;0.5
+Missile_48x72_totop;150;878;48;70;0.5;0.5
+Missile_96x144_tobottom;100;568;96;140;0.5;0.5
+Missile_96x144_toleft;244;103;140;96;0.5;0.5
+Missile_96x144_totop;100;426;96;140;0.5;0.5
+SaveFlag;268;854;35;44;0.5;0.5227272727272727
+Saw_48x12_bottom;150;4;48;24;0.5;0.5
+Saw_72x12;100;412;72;12;0.5;0.5
+Slime_1;272;934;44;38;0.5;0.5
+Slime_2;298;984;44;38;0.5;0.5
+Slime_thorn;200;730;52;46;0.5;0.5
+Spring;246;804;27;46;0.5;0.5
+Stage5_4_pipes;2;710;146;312;0.5;0.5
+Stage5_4_pipes2;2;396;96;312;0.5;0.5
+Stage6_2_pipe;2;30;240;144;0.5;0.5
+Stage6_2_pipe_single;150;950;96;72;0.5;0.5
+Stage6_5_pipe;2;176;192;218;0.5;0.5
+Stage6_5_pipe2;196;302;96;122;0.5;0.5
+Switch_machine_broken;198;642;45;34;0.45555555555555555;0.7058823529411764
+Switch_machine_off;198;606;45;34;0.5444444444444444;0.7058823529411764
+Switch_machine_on;198;570;45;34;0.45555555555555555;0.7058823529411764
+Sword;200;8;48;20;0.5;0.5
+Tile_ground;150;778;48;48;0.5;0.5
+Unknown;150;728;48;48;0.5;0.5
+UnknownBrickOver;198;678;48;48;0.5;0.5
+gold;198;534;26;34;0.5;0.5
