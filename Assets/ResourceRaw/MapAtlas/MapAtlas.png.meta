@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5e80ac0c2df53ea4a954c38a80733de6
-timeCreated: 1435076902
+timeCreated: 1494238384
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -39,12 +39,44 @@ TextureImporter:
     21300064: Unknown
     21300066: UnknownBrickOver
     21300068: gold
-  serializedVersion: 2
+    21300070: MapAtlas_0
+    21300072: MapAtlas_1
+    21300074: MapAtlas_2
+    21300076: MapAtlas_3
+    21300078: MapAtlas_4
+    21300080: MapAtlas_5
+    21300082: MapAtlas_6
+    21300084: MapAtlas_7
+    21300086: MapAtlas_8
+    21300088: MapAtlas_9
+    21300090: MapAtlas_10
+    21300092: MapAtlas_11
+    21300094: MapAtlas_12
+    21300096: MapAtlas_13
+    21300098: MapAtlas_14
+    21300100: MapAtlas_15
+    21300102: MapAtlas_16
+    21300104: MapAtlas_17
+    21300106: MapAtlas_18
+    21300108: MapAtlas_19
+    21300110: MapAtlas_20
+    21300112: MapAtlas_21
+    21300114: MapAtlas_22
+    21300116: MapAtlas_23
+    21300118: MapAtlas_24
+    21300120: MapAtlas_25
+    21300122: MapAtlas_26
+    21300124: MapAtlas_27
+    21300126: MapAtlas_28
+    21300128: MapAtlas_29
+    21300130: MapAtlas_30
+    21300132: MapAtlas_31
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -56,10 +88,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 4096
@@ -70,9 +100,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -80,288 +108,44 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Brick
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 974
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Cloud_bad
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 201
-        width: 140
-        height: 99
-      alignment: 9
-      pivot: {x: 0.50714284, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Cloud_normal
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 20
-        width: 124
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Flower
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 852
-        width: 44
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5217391}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Grass
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 4
-        width: 72
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Lady
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 778
-        width: 44
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Lawd
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 4
-        width: 72
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_48x72_tobottom
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 31
-        width: 48
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_48x72_toleft
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 828
-        width: 70
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_48x72_toright
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 900
-        width: 70
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_48x72_totop
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 878
-        width: 48
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_96x144_tobottom
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 568
-        width: 96
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_96x144_toleft
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 103
-        width: 140
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Missile_96x144_totop
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 426
-        width: 96
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: SaveFlag
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 854
-        width: 35
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.52272725}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Saw_48x12_bottom
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 4
-        width: 48
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Saw_72x12
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 412
-        width: 72
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slime_1
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 934
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slime_2
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 984
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Slime_thorn
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 730
-        width: 52
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Spring
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 804
-        width: 27
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Stage5_4_pipes
+      name: MapAtlas_0
       rect:
         serializedVersion: 2
         x: 2
@@ -369,38 +153,12 @@ TextureImporter:
         width: 146
         height: 312
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Stage5_4_pipes2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 396
-        width: 96
-        height: 312
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Stage6_2_pipe
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 30
-        width: 240
-        height: 144
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Stage6_2_pipe_single
+      name: MapAtlas_1
       rect:
         serializedVersion: 2
         x: 150
@@ -408,90 +166,77 @@ TextureImporter:
         width: 96
         height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Stage6_5_pipe
+      name: MapAtlas_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 176
-        width: 192
-        height: 218
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Stage6_5_pipe2
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 302
+        x: 248
+        y: 974
         width: 96
-        height: 122
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Switch_machine_broken
+      name: MapAtlas_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 642
-        width: 45
-        height: 34
-      alignment: 9
-      pivot: {x: 0.45555556, y: 0.7058824}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Switch_machine_off
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 606
-        width: 45
-        height: 34
-      alignment: 9
-      pivot: {x: 0.54444444, y: 0.7058824}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Switch_machine_on
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 570
-        width: 45
-        height: 34
-      alignment: 9
-      pivot: {x: 0.45555556, y: 0.7058824}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sword
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 8
-        width: 48
-        height: 20
+        x: 150
+        y: 852
+        width: 120
+        height: 96
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Tile_ground
+      name: MapAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 932
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 828
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 854
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_7
       rect:
         serializedVersion: 2
         x: 150
@@ -499,12 +244,38 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: Unknown
+      name: MapAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 778
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 804
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_10
       rect:
         serializedVersion: 2
         x: 150
@@ -512,12 +283,51 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: UnknownBrickOver
+      name: MapAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 728
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 396
+        width: 96
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 426
+        width: 96
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_14
       rect:
         serializedVersion: 2
         x: 198
@@ -525,12 +335,51 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
-      name: gold
+      name: MapAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 642
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 606
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 570
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_18
       rect:
         serializedVersion: 2
         x: 198
@@ -538,10 +387,179 @@ TextureImporter:
         width: 26
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 412
+        width: 72
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 303
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 192
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 200
+        width: 139
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 240
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 104
+        width: 136
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 144
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 31
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_27
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 20
+        width: 124
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 76
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 72
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MapAtlas_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 8
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
