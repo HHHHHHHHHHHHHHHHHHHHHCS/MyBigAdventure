@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114681749455383016}
   - component: {fileID: 114873139756774798}
   m_Layer: 5
-  m_Name: Text
+  m_Name: LevelName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 222556625071910204}
   - component: {fileID: 114348744333942758}
   - component: {fileID: 114439467483786960}
+  - component: {fileID: 114499825562063360}
   m_Layer: 5
   m_Name: LevelButton
   m_TagString: Untagged
@@ -159,6 +160,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114499825562063360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1957317859794728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8b6908c400aa843ba53bd40d0a8415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: {fileID: 114681749455383016}
+  mask: {fileID: 114422048559941340}
 --- !u!114 &114681749455383016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -184,7 +198,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 120
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

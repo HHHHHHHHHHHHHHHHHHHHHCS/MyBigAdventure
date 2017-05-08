@@ -34,7 +34,7 @@ _instance.filePath = string.Format("{0}/{1}", Application.persistentDataPath, fi
 
 
 
-    public override string Read()
+    public new string Read()
     {
         return base.Read();
     }

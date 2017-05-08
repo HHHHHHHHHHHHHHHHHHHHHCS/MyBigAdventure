@@ -10,10 +10,9 @@ public abstract class MyJsonManager
 
     protected string filePath;
 
-    public virtual string Read()
+    protected virtual string Read()
     {
         string result = "";
-        Debug.Log(filePath);
         if (File.Exists(filePath))
         {
             using (StreamReader sr = File.OpenText(filePath))
@@ -26,12 +25,12 @@ public abstract class MyJsonManager
     }
 
 
-    public virtual List<T> ToList<T>()
+    protected virtual List<T> ToList<T>()
     {
         return JsonConvert.DeserializeObject<List<T>>(Read());
     }
 
-    public virtual string Save<T>(List<T> list)
+    protected virtual string Save<T>(List<T> list)
     {
         string jsonStr = JsonConvert.SerializeObject(list);
         using (StreamWriter sw = File.CreateText(filePath))

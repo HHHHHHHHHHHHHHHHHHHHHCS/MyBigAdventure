@@ -1,1 +1,64 @@
-[{"levelID":0,"sceneName":"level_01","levelName":"001","star":3},{"levelID":1,"sceneName":"level_02","levelName":"002","star":0},{"levelID":2,"sceneName":"level_03","levelName":"003","star":0}]
+[
+    {
+        "levelID": 0,
+        "sceneName": "level_01",
+        "levelName": "1",
+        "star": 0
+    },
+    {
+        "levelID": 1,
+        "sceneName": "level_02",
+        "levelName": "2",
+        "star": 0
+    },
+    {
+        "levelID": 2,
+        "sceneName": "level_03",
+        "levelName": "3",
+        "star": 0
+    },
+    {
+        "levelID": 3,
+        "sceneName": "level_04",
+        "levelName": "4",
+        "star": 0
+    },
+    {
+        "levelID": 4,
+        "sceneName": "level_05",
+        "levelName": "5",
+        "star": 0
+    },
+    {
+        "levelID": 5,
+        "sceneName": "level_06",
+        "levelName": "6",
+        "star": 0
+    },
+    {
+        "levelID": 6,
+        "sceneName": "level_07",
+        "levelName": "7",
+        "star": 0
+    },
+    {
+        "levelID": 7,
+        "sceneName": "level_08",
+        "levelName": "8",
+        "star": 0
+    },
+    {
+        "levelID": 8,
+        "sceneName": "level_09",
+        "levelName": "9",
+        "star": 0
+    },
+    {
+        "levelID": 9,
+        "sceneName": "level_10",
+        "levelName": "10",
+        "star": 0
+    }
+
+    
+]
