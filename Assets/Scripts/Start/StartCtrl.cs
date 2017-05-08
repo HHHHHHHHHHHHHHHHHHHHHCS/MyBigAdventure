@@ -21,11 +21,11 @@ public class StartCtrl : MonoBehaviour
 
     void ClickStartGame()
     {
-
+        LoadScene.Load(ScenesName.selectScene);
     }
 
     void ClickOption()
     {
-        SceneManager.LoadScene(ScenesName.optionScene);
+        LoadScene.Load(ScenesName.optionScene);
     }
 }

@@ -66,6 +66,6 @@ public class OptionCtrl : MonoBehaviour
 
     void Back()
     {
-        SceneManager.LoadScene(ScenesName.mainScene);
+        LoadScene.Load(ScenesName.mainScene);
     }
 }

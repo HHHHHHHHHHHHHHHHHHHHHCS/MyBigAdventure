@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityToolbag;
 
 public class SelectCtrl : MonoBehaviour
 {
+    [Reorderable]
     [SerializeField]
     private List<LevelButton> levelButtonList;
+    [SerializeField]
+    private Button backButton;
+    [SerializeField]
+    private Text pageTitle;
     [SerializeField]
     private Button preButton;
     [SerializeField]
@@ -28,6 +34,7 @@ public class SelectCtrl : MonoBehaviour
         maxPage = levelList.Count / maxPageCount;
         RefreshList(0);
 
+        backButton.onClick.AddListener(Back);
         preButton.onClick.AddListener(() => { RefreshList(-1); });
         nextButton.onClick.AddListener(() => { RefreshList(+1); });
     }
@@ -45,12 +52,18 @@ public class SelectCtrl : MonoBehaviour
         }
     }
 
+    void Back()
+    {
+        LoadScene.Load(ScenesName.mainScene);
+    }
+
 
     private void RefreshList(int value)
     {
         int newInt = nowIndex + value;
         if (newInt >= 0 && newInt <= maxPage)
         {
+
             if (newInt == 0)
             {
                 preButton.gameObject.SetActive(false);
@@ -70,6 +83,7 @@ public class SelectCtrl : MonoBehaviour
                 nextButton.gameObject.SetActive(true);
             }
             nowIndex = newInt;
+            pageTitle.text = string.Format("Page:{0}", nowIndex + 1);
             int startPos = nowIndex * maxPageCount;
             int nowPos;
             for (int i = 0; i < maxPageCount; i++)

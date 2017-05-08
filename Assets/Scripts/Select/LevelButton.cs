@@ -11,26 +11,26 @@ public class LevelButton : MonoBehaviour
     [SerializeField]
     private Image mask;
 
-    public void Init(LevelInfo info,bool showMask)
+    public void Init(LevelInfo info, bool showMask)
     {
-        if(info==null)
+        if (info == null)
         {
             HideSelf();
         }
         else
         {
-            if(!gameObject.activeSelf)
-            {
-                ShowSelf();
-            }
-            levelName.text = info.levelName;
             if (showMask)
             {
                 ShowMask();
             }
             else
             {
+                levelName.text = info.levelName;
                 HideMask();
+            }
+            if (!gameObject.activeSelf)
+            {
+                ShowSelf();
             }
         }
     }

@@ -6,4 +6,5 @@ public class ScenesName
 {
     public const string mainScene = "StartScene";
     public const string optionScene = "OptionScene";
+    public const string selectScene = "SelectScene";
 }
