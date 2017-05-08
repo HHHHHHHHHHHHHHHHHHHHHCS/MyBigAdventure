@@ -18,7 +18,7 @@
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.5.3f1</UnityVersion>
     <RootNamespace></RootNamespace>
-    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+    <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -77,14 +77,17 @@
       <HintPath>Assets\Plugins\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\Scripts\Game\Newtonsoft.Json.dll</HintPath>
+      <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Game\LevelInfo.cs" />
+    <Compile Include="Assets\Scripts\Game\LevelJsonManager.cs" />
     <Compile Include="Assets\Scripts\Game\MyJsonManager.cs" />
     <Compile Include="Assets\Scripts\Game\ScenesName.cs" />
     <Compile Include="Assets\Scripts\Option\OptionCtrl.cs" />
     <Compile Include="Assets\Scripts\Option\OptionPath.cs" />
+    <Compile Include="Assets\Scripts\Select\SelectCtrl.cs" />
     <Compile Include="Assets\Scripts\Start\StartCtrl.cs" />
     <Compile Include="Assets\Scripts\Start\StartPath.cs" />
   </ItemGroup>
