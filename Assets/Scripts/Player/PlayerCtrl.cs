@@ -34,7 +34,7 @@ public class PlayerCtrl : MonoBehaviour
         foot = transform.Find("Foot");
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
     }
@@ -51,7 +51,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         bool isfloat = GetIsFloat();
         bool isJumping = PlayerAnimator.Instance.GetIsJumping;
-        float fixedTime = Time.fixedDeltaTime;
+        float fixedTime = Time.deltaTime;
         if (!isJumping && !isfloat)
         {
             bool jumpAndMove = false;
