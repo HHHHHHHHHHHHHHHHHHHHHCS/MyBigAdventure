@@ -8,20 +8,18 @@ public class PlayerCtrl : MonoBehaviour
 
     public static PlayerCtrl Instance { get { return _instance; } }
 
-
+    private List<string> tagList = new List<string>() { Tags.floor };
 
     private Rigidbody2D rigi;
+    private PlayerFoot foot;
 
-    private Transform foot;
-    [Header("可以踩的层")]
-    [SerializeField]
-    private LayerMask layer;
+
+
     [SerializeField]
     private float moveSpeed = 10;
     [SerializeField]
     private float jumpSpeed = 10;
 
-    private Vector3 footOffest = new Vector3(0f, -0.05f, 0f);
 
 
     private bool isJumpAndMove;
@@ -31,7 +29,8 @@ public class PlayerCtrl : MonoBehaviour
     {
         _instance = this;
         rigi = GetComponent<Rigidbody2D>();
-        foot = transform.Find("Foot");
+        foot = transform.Find("Foot").GetComponent<PlayerFoot>();
+        foot .SetTags(tagList);
     }
 
     private void Update()
@@ -41,10 +40,7 @@ public class PlayerCtrl : MonoBehaviour
 
     public bool GetIsFloat()
     {
-
-        RaycastHit2D ray = Physics2D.Linecast(foot.position, foot.position + footOffest, layer);
-        return ray.collider == null;
-
+        return foot.IsFloat;
     }
 
     void Move()
@@ -74,7 +70,7 @@ public class PlayerCtrl : MonoBehaviour
             {
                 PlayerAnimator.Instance.SetIsRun(false);
             }
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space))
             {
                 if (jumpAndMove)
                 {
@@ -125,6 +121,11 @@ public class PlayerCtrl : MonoBehaviour
             isJumpAndMove = false;
         }
 
+    }
+
+    public void OnDestroy()
+    {
+        _instance = null;
     }
 
 }
