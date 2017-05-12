@@ -18,7 +18,7 @@ public class PlayerCtrl : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 10;
     [SerializeField]
-    private float jumpSpeed = 10;
+    private float jumpSpeed = 8.5f;
 
 
 
