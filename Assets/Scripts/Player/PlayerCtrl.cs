@@ -13,8 +13,8 @@ public class PlayerCtrl : MonoBehaviour
     private Rigidbody2D rigi;
     private PlayerFoot foot;
 
-
-
+    [SerializeField]
+    private LayerMask layer;
     [SerializeField]
     private float moveSpeed = 10;
     [SerializeField]
@@ -30,7 +30,7 @@ public class PlayerCtrl : MonoBehaviour
         _instance = this;
         rigi = GetComponent<Rigidbody2D>();
         foot = transform.Find("Foot").GetComponent<PlayerFoot>();
-        foot .SetTags(tagList);
+        foot .SetTagsLayer(tagList,layer);
     }
 
     private void Update()

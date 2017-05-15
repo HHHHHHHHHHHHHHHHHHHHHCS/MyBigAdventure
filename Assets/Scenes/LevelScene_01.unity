@@ -444,7 +444,7 @@ Prefab:
     - target: {fileID: 61514540203520964, guid: 47bc7e408b6ea9f41b8aa47cc860e004,
         type: 2}
       propertyPath: m_Size.x
-      value: 0.21
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 61175602276233170, guid: 47bc7e408b6ea9f41b8aa47cc860e004,
         type: 2}
@@ -464,8 +464,7 @@ Prefab:
     - target: {fileID: 1412763542443242, guid: 47bc7e408b6ea9f41b8aa47cc860e004, type: 2}
       propertyPath: m_Icon
       value: 
-      objectReference: {fileID: -1577725955494882426, guid: 0000000000000000d000000000000000,
-        type: 0}
+      objectReference: {fileID: 0}
     - target: {fileID: 114682724551848938, guid: 47bc7e408b6ea9f41b8aa47cc860e004,
         type: 2}
       propertyPath: maxBorder
@@ -475,6 +474,16 @@ Prefab:
         type: 2}
       propertyPath: jumpSpeed
       value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114717424298063462, guid: 47bc7e408b6ea9f41b8aa47cc860e004,
+        type: 2}
+      propertyPath: layer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 61514540203520964, guid: 47bc7e408b6ea9f41b8aa47cc860e004,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 47bc7e408b6ea9f41b8aa47cc860e004, type: 2}
