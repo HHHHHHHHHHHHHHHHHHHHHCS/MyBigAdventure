@@ -47,7 +47,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         bool isfloat = GetIsFloat();
         bool isJumping = PlayerAnimator.Instance.GetIsJumping;
-        float fixedTime = Time.deltaTime;
+        float deltaTime = Time.deltaTime;
         if (!isJumping && !isfloat)
         {
             bool jumpAndMove = false;
